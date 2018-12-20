@@ -1,0 +1,77 @@
+import java.util.*;
+import java.io.*;
+import java.util.Scanner;
+interface RainfallCalculator {
+  int centimeters;
+  Date(int year,int month, int date);
+  String pincode;
+  void captureRain(Float measure, Date rainDate, String pincode);
+  RainfallRegion getRegionWithMaxRainfall(Date fromDate, Date toDate);
+  RainfallRegion getRegionWithMinRainfall(Date fromDate, Date toDate);
+  Float getAverageRainfall(Date fromDate, Date toDate);
+  }
+class RainfallRegion {
+  void captureRain(Float measure, Date rainDate, String pincode){
+    String pincode;
+    Float measure;
+    Scanner input=new Scanner(System.in);
+    String pincode=input.next();
+    Float measure=input.nextFloat();}
+  RainfallRegion getRegionWithMaxRainfall(Date fromDate, Date toDate){
+    int n[]={0};
+   Scanner input=new Scanner(System.in);
+   Float measure=input.nextFloat();
+   Date rainDate=input.nextDate();
+   String pincode=input.nextString();
+   for(int i=1;i<n;i++)
+   {
+      if(strcmp(pincode[i],pincode[i+1]==1)
+      {
+        MaxRainfall=pincode[i];
+      }
+      else if(strcmp(pincode[i],pincode[i+1]==0)
+      {
+        if(Date[i]>Date[i+1])
+        {
+            MaxRainfall=pincode[i];
+        }
+        else
+        {
+            MaxRainfall=pincode[i+1];
+        }
+      }
+    }
+  RainfallRegion getRegionWithMinRainfall(Date fromDate, Date toDate);
+  {
+    int n[]={0};
+    Scanner input=new Scanner(System.in);
+    Float measure=input.nextFloat();
+    Date rainDate=input.nextDate();
+    String pincode=input.nextString();
+    for(int i=1;i<n;i++)
+   {
+      if(strcmp(pincode[i],pincode[i+1]==1)
+      {
+        MinRainfall=pincode[i];
+      }
+      else if(strcmp(pincode[i],pincode[i+1]==0)
+      {
+        if(Date[i]>Date[i+1])
+        {
+            MinRainfall=pincode[i];
+        }
+        else
+        {
+            MinRainfall=pincode[i+1];
+        }
+      }
+    }
+  }
+  Float getAverageRainfall(Date fromDate, Date toDate)
+  {
+    Float measure1=input.nextFloat(Date fromDate);
+    Float measure2=input.nextFloat(Date toDate);
+    Float avgrainfall=(fromDate+toDate)/(measure1+measure2);
+  }
+  
+}
