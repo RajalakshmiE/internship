@@ -1,0 +1,16 @@
+import sys;
+import dict;
+def fun():
+  ip=input(String);
+  charOffset=input(int);
+  if ip in word_dict:
+    for key in word_dict:
+      print key, word_dict[key];
+  elif ip not in word_dict:
+      ip=ip*charOffset;
+      print ip;
+  else:
+    for key in word_dict:
+      print key, word_dict[key];
+String obfuscate(String input, Integer charOffset, Map<String, String> wordMap);
+  fun();
