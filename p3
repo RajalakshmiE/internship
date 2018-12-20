@@ -1,0 +1,79 @@
+#include<stdio.h>
+#include<conio.h>
+typedef Struct trip
+{
+  int n=0;
+  int m=0;
+  int date;
+  int month;
+  int year;
+  int hr;
+  int min;
+  char place[100];
+  float pt;
+ }trip;
+void tripplan()
+{
+  int i;
+  bool bus;
+  bool time;
+  bool poll;
+  char location[100];
+  int vac_start_date;
+  scanf(%d",&n);/other region students;
+  scanf("%d",&m);/students belonging to same location;
+  printf("vacation trip plan");
+  printf("Date:\t");
+  scanf("%d",&date);
+  scanf("%d",&month);
+  scanf("%d",&year);
+  printf("%d %d %d",date,month,year);
+  scanf("%d",&hr);
+  scanf("%d",&min);
+  printf("%d %d",hr,min);
+  scanf("%c",place);
+  printf("Location: %c",place);
+  printf("\n Guys please do join the trip:");
+  if(strcmp(place,location)==0)
+  {
+    printf("Hey you can join the trip!");
+  }
+  else
+  {
+    printf("book the tickets");
+  }
+  printf("Vacation start date:");
+  scanf("%d",&date);
+  scanf("%d",&month);
+  scanf("%d",&year);
+  printf(%d %d %d",date,month,year);
+  vac_start_date=date-7;
+  if(n>0)
+  {
+    if(1)
+    {
+      n++;
+    }
+   }
+   else
+   {
+      printf("0");
+   }
+   printf("select bus or time");
+   scanf("%d",%bus);)
+   scanf("%d",&hr);
+   if(bus==1 || time==1)
+   {
+      printf("payment");
+      scanf("%f",pt);
+   }
+   else 
+   {
+      printf("0");
+   }
+ }
+ void main()
+ {
+  Struct tour=(struct*)malloc(sizeof(struct))
+  tripplan();
+ }
